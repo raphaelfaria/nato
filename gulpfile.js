@@ -22,6 +22,14 @@ gulp.task('static', function () {
     .pipe(eslint.failAfterError());
 });
 
+gulp.task('lint', function () {
+  return gulp.src('lib/**/*.js')
+    .pipe(excludeGitignore())
+    .pipe(eslint())
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
+});
+
 gulp.task('nsp', function (cb) {
   nsp({package: path.resolve('package.json')}, cb);
 });
