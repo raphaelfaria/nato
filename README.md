@@ -1,5 +1,7 @@
 > NATO Phonetic Alphabet
 
+Based on NATO gem by Lukas Alexandre (https://github.com/lukelex/NATO)
+
 ## Installation
 
 ```sh
