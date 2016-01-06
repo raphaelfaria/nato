@@ -11,7 +11,7 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
+  "main": "dist/nato.js",
   "keywords": [],
   "repository": "raphaelfaria/nato",
   "devDependencies": {
